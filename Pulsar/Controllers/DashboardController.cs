@@ -14,18 +14,6 @@ namespace Pulsar.Controllers
         // GET: Dashboard
         public ActionResult Index()
         {
-            var settings = new TeamPulseAppSettings()
-            {
-                SiteUrl = "XXX",
-                UseWindowsAuth = true,
-                Username = "XXX",
-                Password = "XXX",
-                Domain = "XXX"
-            };
-
-            TeamPulseApp app = new TeamPulseApp(settings);
-            app.Login();
-            WorkItem[] workitems = app.WorkItems.Get().results;
 
             var model = new DashboardPageModel { };
             return View(model);
