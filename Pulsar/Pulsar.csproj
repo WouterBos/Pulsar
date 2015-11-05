@@ -116,16 +116,26 @@
     <Content Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </Content>
-    <None Include="Content\reset.less" />
-    <Content Include="Content\reset.css">
-      <DependentUpon>reset.less</DependentUpon>
+    <Content Include="Content\Less\widget-modal.less" />
+    <Content Include="Content\Less\variables.less" />
+    <Content Include="Content\Less\text.less" />
+    <Content Include="Content\Less\form.less" />
+    <Content Include="Content\Less\form-vertical.less" />
+    <None Include="Content\pulsar.less" />
+    <None Include="Content\Less\reset.less" />
+    <None Include="Content\Less\sections.less" />
+    <Content Include="Content\pulsar.css">
+      <DependentUpon>pulsar.less</DependentUpon>
     </Content>
-    <Content Include="Content\reset.min.css">
-      <DependentUpon>reset.css</DependentUpon>
+    <Content Include="Content\pulsar.min.css">
+      <DependentUpon>pulsar.css</DependentUpon>
     </Content>
     <Content Include="Global.asax" />
     <Content Include="Scripts\jquery-2.1.4.min.js" />
     <Content Include="Scripts\knockout-3.3.0.js" />
+    <None Include="Scripts\linq-vsdoc.js" />
+    <Content Include="Scripts\linq.js" />
+    <Content Include="Scripts\lokijs.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -136,10 +146,11 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\DashboardController.cs" />
     <Compile Include="Controllers\PulsarApiController.cs" />
+    <Compile Include="Controllers\TemplatesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\DashboardModels.cs" />
+    <Compile Include="Models\DashboardModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -150,6 +161,8 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Dashboard\Index.cshtml" />
+    <Content Include="Views\Templates\Index.cshtml" />
+    <Content Include="Views\Shared\_Template.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

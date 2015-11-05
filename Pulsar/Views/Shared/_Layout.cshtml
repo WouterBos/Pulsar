@@ -6,10 +6,18 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title</title>
+    <link href="~/Content/pulsar.min.css" rel="stylesheet" />
     <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <meta name="description" content='@System.Configuration.ConfigurationManager.AppSettings["ApplicationName"] - A team dashboard for TeamPulse' />
 </head>
 <body>
     @Html.ActionLink(System.Configuration.ConfigurationManager.AppSettings["ApplicationName"], "Index", "Home", new { area = "" }, new { @class = "pulsar_homelink" })
+    <div class="plsr_panel">
+
+    </div>
+    <div class="plsr_widgets">
+
+    </div>
     @RenderBody()
     <script src="~/Scripts/jquery-2.1.4.min.js"></script>
     <script src="~/Scripts/knockout-3.3.0.js"></script>

@@ -2,5 +2,13 @@
   {
     "outputFile": "Content/reset.css",
     "inputFile": "Content/reset.less"
+  },
+  {
+    "outputFile": "Content/Less/sections.css",
+    "inputFile": "Content/Less/sections.less"
+  },
+  {
+    "outputFile": "Content/pulsar.css",
+    "inputFile": "Content/pulsar.less"
   }
 ]

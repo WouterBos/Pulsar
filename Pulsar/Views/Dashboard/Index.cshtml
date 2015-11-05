@@ -4,10 +4,11 @@
     ViewBag.Title = Model.ApplicationName + "Dashboard";
 }
 
+<a href="@Url.Content(@Model.Templates)" style="position: fixed; top: 0; left: 0; background: #000;">TEMPLATES</a>
 
 
 @section script {
     <script>
-        pulsar.page.init();
+        pulsar.page.init('@Url.Content(@Model.Templates)');
     </script>
 }

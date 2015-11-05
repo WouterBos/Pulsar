@@ -28,15 +28,14 @@ D:\Projects\Pulsar\Solution\Pulsar\bin\System.Web.Webpages.Deployment.xml
 D:\Projects\Pulsar\Solution\Pulsar\bin\System.Web.Webpages.Razor.xml
 D:\Projects\Pulsar\Solution\Pulsar\bin\System.Web.Helpers.xml
 D:\Projects\Pulsar\Solution\Pulsar\bin\System.Web.Mvc.xml
-D:\Projects\Pulsar\Solution\Pulsar\obj\Debug\Pulsar.csprojResolveAssemblyReference.cache
 D:\Projects\Pulsar\Solution\Pulsar\obj\Debug\Pulsar.dll
 D:\Projects\Pulsar\Solution\Pulsar\obj\Debug\Pulsar.pdb
 D:\Projects\Pulsar\Solution\Pulsar\bin\System.Web.Http.dll
 D:\Projects\Pulsar\Solution\Pulsar\bin\Newtonsoft.Json.dll
 D:\Projects\Pulsar\Solution\Pulsar\bin\System.Net.Http.Formatting.dll
-D:\Projects\Pulsar\Solution\Pulsar\bin\Telerik.TeamPulse.Sdk.pdb
 D:\Projects\Pulsar\Solution\Pulsar\bin\System.Web.Http.xml
 D:\Projects\Pulsar\Solution\Pulsar\bin\System.Net.Http.Formatting.xml
 D:\Projects\Pulsar\Solution\Pulsar\bin\System.Web.Http.WebHost.dll
 D:\Projects\Pulsar\Solution\Pulsar\bin\Newtonsoft.Json.xml
 D:\Projects\Pulsar\Solution\Pulsar\bin\System.Web.Http.WebHost.xml
+D:\Projects\Pulsar\Solution\Pulsar\obj\Debug\Pulsar.csprojResolveAssemblyReference.cache

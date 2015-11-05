@@ -14,5 +14,19 @@ namespace Pulsar.Models
                 return System.Configuration.ConfigurationManager.AppSettings["ApplicationName"];
             }
         }
+        public string Layout
+        {
+            get
+            {
+                return "~/Views/Shared/_Template.cshtml";
+            }
+        }
+        public string Templates
+        {
+            get
+            {
+                return "~/Templates/Index";
+            }
+        }
     }
 }

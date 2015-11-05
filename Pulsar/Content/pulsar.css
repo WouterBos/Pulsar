@@ -1,0 +1,193 @@
+﻿html,
+body {
+  border: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+div,
+span,
+object,
+iframe,
+img,
+table,
+caption,
+thead,
+tbody,
+tfoot,
+tr,
+tr,
+td,
+article,
+aside,
+canvas,
+details,
+figure,
+hgroup,
+menu,
+nav,
+footer,
+header,
+section,
+summary,
+mark,
+audio,
+video {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+address,
+cit,
+code,
+del,
+dfn,
+em,
+ins,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+b,
+i,
+hr,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+legend,
+label {
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+}
+article,
+aside,
+canvas,
+figure,
+figure img,
+figcaption,
+hgroup,
+footer,
+header,
+nav,
+section,
+audio,
+video {
+  display: block;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+table caption,
+table th,
+table td {
+  text-align: left;
+  vertical-align: middle;
+}
+a img {
+  border: 0;
+}
+:focus {
+  outline: 0;
+}
+ol {
+  list-style-type: none;
+}
+.plsr_head {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}
+.plsr_hiddenAccessible {
+  position: absolute;
+  top: -9999em;
+  left: -9999em;
+}
+body {
+  height: 100vh;
+  overflow: hidden;
+  background-image: radial-gradient(ellipse 55vw 30vh at center 111vh, rgba(240, 109, 6, 0.08), transparent), repeating-radial-gradient(circle at center bottom, rgba(240, 109, 6, 0.25), transparent), repeating-radial-gradient(circle at center bottom, rgba(240, 109, 6, 0.08), transparent, rgba(240, 109, 6, 0.08) 5px), repeating-radial-gradient(circle at left top, rgba(240, 109, 6, 0.08), transparent, rgba(240, 109, 6, 0.08) 5px), repeating-radial-gradient(circle at left bottom, rgba(240, 109, 6, 0.08), transparent, rgba(240, 109, 6, 0.08) 5px), repeating-radial-gradient(circle at right top, rgba(240, 109, 6, 0.08), transparent, rgba(240, 109, 6, 0.08) 5px), repeating-radial-gradient(circle at right bottom, rgba(240, 109, 6, 0.08), transparent, rgba(240, 109, 6, 0.08) 5px);
+  background-color: #000000;
+}
+body,
+input {
+  color: #ffffff;
+}
+.plsr_panel {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 20%;
+  background-image: radial-gradient(circle at center bottom, rgba(240, 109, 6, 0.05), transparent), linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1) 40%);
+}
+.plsr_widgets {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 20%;
+}
+.plsr_modal_smokeScreen {
+  background-color: #000;
+}
+.plsr_modal_window {
+  position: fixed;
+  top: 20vh;
+  left: 50%;
+  margin-left: -10em;
+  width: 20em;
+  border: 2px solid #f06d06;
+  background-color: rgba(240, 109, 6, 0.1);
+}
+.plsr_modal_window .plsr_head {
+  display: block;
+  font-size: 2em;
+  padding: 0.3em 1em;
+  background-color: rgba(240, 109, 6, 0.2);
+}
+.plsr_modal_window .plsr_modal_content {
+  padding: 2em;
+}
+.plsr_form li + li {
+  margin-top: 1em;
+}
+.plsr_form input[type="text"],
+.plsr_form input[type="password"] {
+  border-width: 0;
+  background-color: #000000;
+}
+.plsr_form input[type="submit"] {
+  border: 2px solid #f06d06;
+  background-color: rgba(240, 109, 6, 0.5);
+}
+.plsr_form_vertical label {
+  display: block;
+}
+.plsr_form_vertical input[type="text"],
+.plsr_form_vertical input[type="password"] {
+  width: 100%;
+  font-size: 1.5em;
+}
+.plsr_form_vertical input[type="submit"] {
+  font-size: 1.5em;
+}
