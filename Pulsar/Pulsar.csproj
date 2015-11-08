@@ -121,6 +121,7 @@
     <Content Include="Content\Less\text.less" />
     <Content Include="Content\Less\form.less" />
     <Content Include="Content\Less\form-vertical.less" />
+    <Content Include="Content\Less\actions.less" />
     <None Include="Content\pulsar.less" />
     <None Include="Content\Less\reset.less" />
     <None Include="Content\Less\sections.less" />

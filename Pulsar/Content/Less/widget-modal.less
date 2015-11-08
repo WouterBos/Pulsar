@@ -1,23 +1,33 @@
 .plsr_modal_smokeScreen {
-	background-color: #000;
+	@color1: fade(darken(@colorComplement, 35%), 50%);
+	@color2: fade(darken(@colorComplement, 40%), 50%);
+	position: fixed;
+	z-index: 100000;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+	background-image: repeating-linear-gradient(45deg, @color1, @color2 60px), repeating-linear-gradient(-45deg, @color2, @color1 60px);
 }
 
 
 
 .plsr_modal_window {
 	position: fixed;
+	z-index: 100001;
 	top: 20vh;
 	left: 50%;
 	margin-left: -10em;
 	width: 20em;
 	border: 2px solid @colorBase;
-	background-color: fade(@colorBase, 10%);
+	background-color: darken(@colorBase, 30%);
+	box-shadow: 5px 5px 30px 0px #000000;
 	
 	.plsr_head {
 		display: block;
 		font-size: 2em;
 		padding: 0.3em 1em;
-		background-color: fade(@colorBase, 20%);
+		background-color: darken(@colorBase, 20%);
 	}
 	
 	.plsr_modal_content {

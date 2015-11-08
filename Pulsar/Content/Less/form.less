@@ -10,7 +10,17 @@
 	}
 
 	input[type="submit"] {
-		border: 2px solid @colorBase;
-		background-color: fade(@colorBase, 50%);
+		border-width: 0;
+		padding: 7px 15px;
+		background-color: @colorComplement;
+		
+		&:hover,
+		&:focus {
+			background-color: @colorComplement_dark1;
+		}
+		
+		&[disabled] {
+			background-color: desaturate(@colorComplement_dark1, 80%) !important;
+		}
 	}
 }

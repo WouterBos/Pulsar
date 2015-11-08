@@ -1,14 +1,12 @@
-﻿[
+[
   {
     "outputFile": "Content/reset.css",
-    "inputFile": "Content/reset.less"
-  },
-  {
-    "outputFile": "Content/Less/sections.css",
-    "inputFile": "Content/Less/sections.less"
+    "inputFile": "Content/reset.less",
+    "sourceMap": false
   },
   {
     "outputFile": "Content/pulsar.css",
-    "inputFile": "Content/pulsar.less"
+    "inputFile": "Content/pulsar.less",
+    "sourceMap": false
   }
 ]

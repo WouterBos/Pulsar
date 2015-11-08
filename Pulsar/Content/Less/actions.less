@@ -1,0 +1,15 @@
+.plsr_action {
+	transition: 0.3s ease-in-out;
+}
+
+.plsr_action__hiddenRotate {
+	opacity: 0;
+	transform: scale(0.2) perspective(46em) rotateX(-70deg);
+	transition: 0.3s ease-in;
+}
+
+.plsr_action__showRotate {
+    opacity: 1;
+	transform: scale(1) perspective(46em);
+	transition: 0.3s ease-out;
+}

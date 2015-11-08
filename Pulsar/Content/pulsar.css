@@ -114,6 +114,19 @@ a img {
 ol {
   list-style-type: none;
 }
+.plsr_action {
+  transition: 0.3s ease-in-out;
+}
+.plsr_action__hiddenRotate {
+  opacity: 0;
+  transform: scale(0.2) perspective(46em) rotateX(-70deg);
+  transition: 0.3s ease-in;
+}
+.plsr_action__showRotate {
+  opacity: 1;
+  transform: scale(1) perspective(46em);
+  transition: 0.3s ease-out;
+}
 .plsr_head {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 }
@@ -148,22 +161,30 @@ input {
   width: 20%;
 }
 .plsr_modal_smokeScreen {
-  background-color: #000;
+  position: fixed;
+  z-index: 100000;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-image: repeating-linear-gradient(45deg, rgba(2, 38, 66, 0.5), rgba(1, 23, 41, 0.5) 60px), repeating-linear-gradient(-45deg, rgba(1, 23, 41, 0.5), rgba(2, 38, 66, 0.5) 60px);
 }
 .plsr_modal_window {
   position: fixed;
+  z-index: 100001;
   top: 20vh;
   left: 50%;
   margin-left: -10em;
   width: 20em;
   border: 2px solid #f06d06;
-  background-color: rgba(240, 109, 6, 0.1);
+  background-color: #5b2902;
+  box-shadow: 5px 5px 30px 0px #000000;
 }
 .plsr_modal_window .plsr_head {
   display: block;
   font-size: 2em;
   padding: 0.3em 1em;
-  background-color: rgba(240, 109, 6, 0.2);
+  background-color: #8c4004;
 }
 .plsr_modal_window .plsr_modal_content {
   padding: 2em;
@@ -177,17 +198,25 @@ input {
   background-color: #000000;
 }
 .plsr_form input[type="submit"] {
-  border: 2px solid #f06d06;
-  background-color: rgba(240, 109, 6, 0.5);
+  border-width: 0;
+  padding: 7px 15px;
+  background-color: #0689f0;
 }
-.plsr_form_vertical label {
+.plsr_form input[type="submit"]:hover,
+.plsr_form input[type="submit"]:focus {
+  background-color: #056dbe;
+}
+.plsr_form input[type="submit"][disabled] {
+  background-color: #536370 !important;
+}
+.plsr_form__vertical label {
   display: block;
 }
-.plsr_form_vertical input[type="text"],
-.plsr_form_vertical input[type="password"] {
+.plsr_form__vertical input[type="text"],
+.plsr_form__vertical input[type="password"] {
   width: 100%;
   font-size: 1.5em;
 }
-.plsr_form_vertical input[type="submit"] {
+.plsr_form__vertical input[type="submit"] {
   font-size: 1.5em;
 }

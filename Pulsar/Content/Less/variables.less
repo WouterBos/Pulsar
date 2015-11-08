@@ -1,1 +1,13 @@
-@colorBase: rgb(240, 109, 6);
+@colorBase: 				rgb(240, 109, 6);
+@colorBase_light1:			lighten(@colorBase, 10%);
+@colorBase_light1:			lighten(@colorBase, 20%);
+@colorBase_dark1:			darken(@colorBase, 10%);
+@colorBase_dark2:			darken(@colorBase, 20%);
+
+@colorComplement:			spin(@colorBase, 180);
+@colorComplement_light1:	lighten(@colorComplement, 10%);
+@colorComplement_light2:	lighten(@colorComplement, 20%);
+@colorComplement_dark1:		darken(@colorComplement, 10%);
+@colorComplement_dark2:		darken(@colorComplement, 20%);
+@triadicSecondary:			spin(@colorBase, -(360 / 3));
+@triadicTertiary:			spin(@colorBase, (360 / 3));
