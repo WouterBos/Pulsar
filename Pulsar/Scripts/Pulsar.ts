@@ -1,7 +1,7 @@
 ﻿/// <reference path="jquery.d.ts" />
 /// <reference path="knockout.d.ts" />
 
-module pulsar {
+export module pulsar {
     export class api {
         private accountInfo: IAccountInfo;
         private iteration: IIteration;
@@ -58,6 +58,15 @@ module pulsar {
                 return Math.floor((1 + Math.random()) * 0x10000).toString(16).substring(1);
             }
             return 'classId-' + s4() + s4() + '-' + s4() + '-' + s4() + '-' + s4() + '-' + s4() + s4() + s4();
+        }
+    }
+
+    export class test {
+        constructor() {
+        }
+
+        calculate(int1: number, int2: number): number {
+            return int1 + int2;
         }
     }
 
