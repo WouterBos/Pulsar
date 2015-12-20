@@ -132,17 +132,27 @@
       <DependentUpon>pulsar.css</DependentUpon>
     </Content>
     <Content Include="Global.asax" />
+    <None Include="Scripts\jquery-2.1.4.intellisense.js" />
+    <Content Include="Scripts\jquery-2.1.4.js" />
     <Content Include="Scripts\jquery-2.1.4.min.js" />
     <Content Include="Scripts\knockout-3.3.0.js" />
+    <Content Include="Scripts\jquery-2.1.4.min.map" />
     <None Include="Scripts\linq-vsdoc.js" />
     <Content Include="Scripts\linq.js" />
     <Content Include="Scripts\lokijs.js" />
-    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Scripts\require.js" />
     <Content Include="Scripts\start.js" />
-    <Content Include="Tests\css\test.css" />
-    <Content Include="Tests\Scripts\require.js" />
-    <Content Include="Tests\test.html" />
+    <Content Include="Scripts\taffy-min.js" />
+    <Content Include="Scripts\taffy.js" />
+    <Content Include="Tests\lib\jasmine-2.3.4\boot.js" />
+    <Content Include="Tests\lib\jasmine-2.3.4\console.js" />
+    <Content Include="Tests\lib\jasmine-2.3.4\jasmine-html.js" />
+    <Content Include="Tests\lib\jasmine-2.3.4\jasmine.css" />
+    <Content Include="Tests\lib\jasmine-2.3.4\jasmine.js" />
+    <Content Include="Tests\lib\jasmine-2.3.4\jasmine_favicon.png" />
+    <Content Include="Tests\SpecRunner.html" />
+    <Content Include="Tests\spec\PulsarSpec.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -158,6 +168,11 @@
     </Compile>
     <Compile Include="Models\DashboardModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Default.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Default.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config">
@@ -182,13 +197,22 @@
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\jquery.d.ts" />
     <TypeScriptCompile Include="Scripts\knockout.d.ts" />
+    <TypeScriptCompile Include="Scripts\PulsarPt.ts" />
+    <TypeScriptCompile Include="Scripts\PulsarData.ts" />
+    <TypeScriptCompile Include="Scripts\PulsarApi.ts" />
+    <TypeScriptCompile Include="Scripts\PulsarWidgets.ts" />
     <TypeScriptCompile Include="Scripts\Pulsar.ts" />
-    <TypeScriptCompile Include="Scripts\tsUnit\tsUnit.ts" />
-    <TypeScriptCompile Include="Tests\completeTest.ts" />
-    <TypeScriptCompile Include="Tests\PulsarTest.ts" />
+    <TypeScriptCompile Include="Scripts\typings\jasmine\jasmine.d.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Default.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Default.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Resources</CustomToolNamespace>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -200,7 +224,7 @@
     <TypeScriptJSXEmit>None</TypeScriptJSXEmit>
     <TypeScriptCompileOnSaveEnabled>True</TypeScriptCompileOnSaveEnabled>
     <TypeScriptNoImplicitAny>False</TypeScriptNoImplicitAny>
-    <TypeScriptModuleKind>AMD</TypeScriptModuleKind>
+    <TypeScriptModuleKind>None</TypeScriptModuleKind>
     <TypeScriptRemoveComments>False</TypeScriptRemoveComments>
     <TypeScriptOutFile />
     <TypeScriptOutDir />

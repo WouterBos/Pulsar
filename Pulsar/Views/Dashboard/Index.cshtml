@@ -9,9 +9,7 @@
 
 @section script {
     <script>
-        requirejs(["Scripts/pulsar"], function (pulsar) {
-            console.log(pulsar);
-            pulsar.pulsar.page.init('@Url.Content(@Model.Templates)');
-        });
+        var ppage = new pulsar.page();
+        ppage.init('@Url.Content(@Model.Templates)');
     </script>
 }

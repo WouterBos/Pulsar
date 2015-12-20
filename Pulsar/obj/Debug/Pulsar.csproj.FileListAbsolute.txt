@@ -39,3 +39,5 @@ D:\Projects\Pulsar\Solution\Pulsar\bin\System.Web.Http.WebHost.dll
 D:\Projects\Pulsar\Solution\Pulsar\bin\Newtonsoft.Json.xml
 D:\Projects\Pulsar\Solution\Pulsar\bin\System.Web.Http.WebHost.xml
 D:\Projects\Pulsar\Solution\Pulsar\obj\Debug\Pulsar.csprojResolveAssemblyReference.cache
+D:\Projects\Pulsar\Solution\Pulsar\obj\Debug\Pulsar.Default.resources
+D:\Projects\Pulsar\Solution\Pulsar\obj\Debug\Pulsar.csproj.GenerateResource.Cache
